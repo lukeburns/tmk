@@ -3,7 +3,7 @@ var mkdirp = require('mkdirp')
 var p = require('path')
 
 module.exports = function (path, options, callback) {
-  if (typeof options === "function") cb = options, options = null
+  if (typeof options === "function") callback = options, options = null
   var dir = (path[path.length-1] === '/') ? path : p.dirname(path)
   mkdirp(dir, options, function (er) {
     if (!er && dir !== path) touch(path, options, function (err) {
