@@ -1,0 +1,15 @@
+{
+  "name": "tmk",
+  "version": "1.0.0",
+  "description": "touch+mkdirp<3",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Luke Burns",
+  "license": "MIT",
+  "dependencies": {
+    "mkdirp": "^0.5.1",
+    "touch": "^1.0.0"
+  }
+}
