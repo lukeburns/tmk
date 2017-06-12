@@ -3,7 +3,7 @@
   "version": "1.1.2",
   "description": "touch+mkdirp<3",
   "main": "index.js",
-  "bin": "./cli.js",
+  "bin" : { "mk" : "./cli.js" }, 
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
